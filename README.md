@@ -2,6 +2,12 @@
 
 Candidato: Gustavo Mercês
 
+## Clone e acesso o repositório
+
+    git clone git@github.com:guhmerces/web-scraper-hiring-test.git
+
+    cd web-scraper-hiring-test    
+
 ## Rodando a API
 
 Certifique-se de ter a porta 3000 liberada
