@@ -48,13 +48,18 @@ X-Powered-By: Express
 
 [
     {
+        "description": "Asus VivoBook X441NA-GA190 Chocolate Black, 14\", Celeron N3450, 4GB, 128GB SSD, Endless OS, ENG kbd",
         "name": "Asus VivoBook...",
-        "price": 295.99
+        "price": 295.99,
+        "reviewCount": "14 reviews"
     },
+
     ... Vários outros notebooks aqui
     {
+        "description": "Asus ROG Strix SCAR Edition GL503VM-ED115T, 15.6\" FHD 120Hz, Core i7-7700HQ, 16GB, 256GB SSD + 1TB SSHD, GeForce GTX 1060 6GB, Windows 10 Home",
         "name": "Asus ROG Strix...",
-        "price": 1799
+        "price": 1799,
+        "reviewCount": "8 reviews"
     }
 ]
 ```
