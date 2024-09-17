@@ -17,8 +17,10 @@ const scrapeLaptops = async () => {
             $('.thumbnail').each((index, element) => {
                 const name = $(element).find('.title').text().trim();
                 const price = parseFloat($(element).find('.price').text().replace('$', '').trim());
+                const description = $(element).find('.description').text().trim();
+                const reviewCount = $(element).find('.review-count').text().trim();
 
-                laptops.push({ name, price });
+                laptops.push({ name, price, description, reviewCount });
             });
 
             const nextPageLink = $('.pagination').find('li.page-item.active').next().find('a.page-link').attr('href');
