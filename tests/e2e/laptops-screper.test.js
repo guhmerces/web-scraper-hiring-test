@@ -1,4 +1,3 @@
-const request = require('supertest');
 const nock = require('nock');
 const app = require('../../app');
 const { default: axios } = require('axios');
