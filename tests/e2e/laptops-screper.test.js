@@ -25,6 +25,7 @@ describe('GET /api/notebooks', () => {
                 </h4>
                 <p class="description card-text">The best laptop 1 description</p>
               </div>
+              <p class="review-count float-end">1 reviews</p>
             </div>
             <div class="card thumbnail">
               <div class="caption">
@@ -34,7 +35,9 @@ describe('GET /api/notebooks', () => {
                 </h4>
                 <p class="description card-text">The best laptop 2 description</p>
               </div>
+              <p class="review-count float-end">2 reviews</p>
             </div>
+            
           </div>
           <nav>
             <ul class="pagination">
@@ -65,6 +68,7 @@ describe('GET /api/notebooks', () => {
                 </h4>
                 <p class="description card-text">The best laptop 3 description</p>
               </div>
+              <p class="review-count float-end">3 reviews</p>
             </div>
       </body></html>`);
   });
@@ -79,9 +83,9 @@ describe('GET /api/notebooks', () => {
 
     expect(res.status).toBe(200);
     expect(res.data).toEqual([
-      { name: 'The best laptop 3', price: 999 },
-      { name: 'The best laptop 1', price: 1000 },
-      { name: 'The best laptop 2', price: 2000 },
+      { name: 'The best laptop 3', price: 999, description: "The best laptop 3 description", reviewCount: '3 reviews' },
+      { name: 'The best laptop 1', price: 1000, description: "The best laptop 1 description", reviewCount: '1 reviews' },
+      { name: 'The best laptop 2', price: 2000, description: "The best laptop 2 description", reviewCount: '2 reviews' },
     ]);
   });
 });
