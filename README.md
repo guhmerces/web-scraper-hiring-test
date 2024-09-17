@@ -1,12 +1,12 @@
 # Web scraper - hiring test
 
-Candidato: Gustavo
+Candidato: Gustavo Mercês
 
 ## Rodando a API
 
 Certifique-se de ter a porta 3000 liberada
 
-Após isso. rode os comandos:
+Após isso, rode os comandos:
 
     npm install
 
@@ -14,9 +14,10 @@ Após isso. rode os comandos:
 
 ## Para rodar testes: (Opcional)
     npm test
-    ![alt text](image.png)
 
-## Usando a API (exmplo utilizando Httpie)
+![Screenshot from 2024-09-17 13-59-26](https://github.com/user-attachments/assets/4ca72e35-03ac-4d6c-b42e-e2377a15b01b)
+
+## Usando a API (exemplo utilizando Httpie)
 
 ### get /notebooks
 
@@ -45,5 +46,9 @@ X-Powered-By: Express
         "price": 295.99
     },
     ... Vários outros notebooks aqui
+    {
+        "name": "Asus ROG Strix...",
+        "price": 1799
+    }
 ]
 ```
