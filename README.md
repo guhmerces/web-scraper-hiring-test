@@ -17,7 +17,7 @@ Após isso. rode os comandos:
 
 ![Screenshot from 2024-09-17 13-59-26](https://github.com/user-attachments/assets/4ca72e35-03ac-4d6c-b42e-e2377a15b01b)
 
-## Usando a API (exmplo utilizando Httpie)
+## Usando a API (exemplo utilizando Httpie)
 
 ### get /notebooks
 
