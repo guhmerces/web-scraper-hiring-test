@@ -6,7 +6,7 @@ Candidato: Gustavo Mercês
 
 Certifique-se de ter a porta 3000 liberada
 
-Após isso. rode os comandos:
+Após isso, rode os comandos:
 
     npm install
 
